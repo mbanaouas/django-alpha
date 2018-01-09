@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	'blog'
+    'blog'
 ]
 
 MIDDLEWARE = [
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'alpha.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'alpha',             # Nom de la base de données
+        'NAME': 'alpha',             # Nom de la base de donnees
         'USER': 'alpha',             # Utilisateur
-        'PASSWORD': 'alpha',         # Mot de passe si nécessaire
-        'HOST': '127.0.0.1',         # Utile si votre base de données est sur une autre machine
+        'PASSWORD': 'alpha',         # Mot de passe si necessaire
+        'HOST': '127.0.0.1',         # Utile si votre base de donnees est sur une autre machine
         'PORT': '3306',
     },
     'default_sqlite3': {
