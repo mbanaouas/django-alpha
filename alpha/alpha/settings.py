@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'alpha',             # Nom de la base de donnees
         'USER': 'alpha',             # Utilisateur
-        'PASSWORD': 'alpha',         # Mot de passe si necessaire
+        'PASSWORD': 'alpha0jet',         # Mot de passe si necessaire
         'HOST': '127.0.0.1',         # Utile si votre base de donnees est sur une autre machine
         'PORT': '3306',
     },

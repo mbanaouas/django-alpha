@@ -2,3 +2,5 @@
 CREATE USER 'alpha' IDENTIFIED BY 'alpha';
 
 GRANT ALL PRIVILEGES ON *.* TO 'alpha' IDENTIFIED BY 'alpha' WITH GRANT OPTION;
+
+SET PASSWORD FOR 'alpha' = PASSWORD('alpha0jet');
